@@ -1,0 +1,3 @@
+G:\Java Work\JavaScript and JQuery\JavaScript and JQuery\obj\Debug\JavaScript and JQuery.njsproj.AssemblyReference.cache
+G:\Java Work\JavaScript and JQuery\JavaScript and JQuery\obj\Debug\JavaScript and JQuery.njsproj.CoreCompileInputs.cache
+G:\Java Work\JavaScript and JQuery\JavaScript and JQuery\bin\Microsoft.NodejsTools.WebRole.dll

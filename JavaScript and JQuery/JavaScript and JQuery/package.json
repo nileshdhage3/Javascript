@@ -1,0 +1,9 @@
+{
+  "name": "java-script-and-jquery",
+  "version": "0.0.0",
+  "description": "JavaScript and JQuery",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
