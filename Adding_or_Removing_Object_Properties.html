@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Object in Javascript </title>
+        <body>
+        <h1>Object in Javascript </h1><br><br>
+        </body>
+        <script type="text/javascript">
+        
+        var car={
+            c_brand:"Tesla",
+            c_model:"Model 1",
+            c_price:50000,
+
+            teslaAutoPilot:function()
+            {
+                document.write("This is a Auto Pilot Car");
+            }
+        }
+        document.write(car.c_brand+"<br><br>")
+
+        //Adding Properties
+        car.c_FuelType="Electric";
+        document.write(car.c_FuelType+"<br><br>")
+        
+        //Deleting object Properties
+        delete car.c_price
+        document.write(car.c_price)
+        </script>
+    </head>
+</html>

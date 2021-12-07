@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>DOM manipulations </title>
+        <body>
+        <h1>DOM manipulations </h1><br><br>
+
+        <button id="=button1" name="Click Me" onclick=btnClick() onkeypress=keyPress() onmousewheel=mouseWheel()>Click me</button>
+        <br><br>
+
+        <h3 id="heading2">Operation performing on below text<br><br> </h3>
+        <h2><label id="label1" name="Label1">Temprory Label</label></h2>
+
+        </body>
+        <script type="text/javascript">
+        function btnClick()
+        {
+            //alert("Button clicked");
+            document.getElementById("label1").innerHTML="Button Clicked";
+        }   
+
+        function keyPress()
+        {
+            //alert("Do not press any other keys as your cursor is on the button and it may incorrectly submit the details");
+            document.getElementById("label1").innerHTML="Do not press any other keys as your cursor is on the button and it may incorrectly submit the details";
+        }  
+
+        function mouseWheel()
+        {
+            //alert("Do not scroll the mouse");
+            document.getElementById("label1").innerHTML="Mouse scrolled when it is on the button";
+        }
+
+        </script>
+    </head>
+</html>
