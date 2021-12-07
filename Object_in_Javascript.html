@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Object in Javascript </title>
+        <body>
+        <h1>Object in Javascript </h1><br><br>
+        </body>
+        <script type="text/javascript">
+        // Step 1
+        // var c_brand="Tesla";
+        // var c_model="model new 1";
+        // var c_price=40000;
+        // function teslaAutoPilot()
+        // {
+        //     document.write("This is the Auto Pilot Car");
+        // }
+        // teslaAutoPilot()
+
+        // Step 2
+        // var car={
+        //     c_brand:"Tesla",
+        //     c_model:"Model 1",
+        //     c_price:50000,
+
+        //     teslaAutoPilot:function()
+        //     {
+        //         document.write("This is a Auto Pilot Car");
+        //     }
+        // }
+        // document.write(car.c_price)
+
+        //Step 3
+        function cars(c_brand,c_model,c_price)
+        {
+            this.c_brand=c_brand;
+            this.c_model=c_model;
+            this.c_price=c_price;
+            this.teslaAutoPilot=function()
+            {
+                document.write("This is a Auto Pilot Car <br><br>");
+            }
+        }
+        var c1=new cars("Tesla","Model 2",30000);
+        var c2=new cars("BMW","Model new",50000);
+        c1.teslaAutoPilot();
+        document.write(c2.c_brand+"<br>")
+        document.write(c2.c_model+"<br>")
+        document.write(c2.c_price+"<br><br><br>")
+
+        document.write(c1.c_brand+"<br>")
+        document.write(c1.c_model+"<br>")
+        document.write(c1.c_price+"<br>")
+        </script>
+    </head>
+</html>
