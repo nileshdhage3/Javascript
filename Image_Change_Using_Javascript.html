@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Element by Class name</title>
+
+    <script type="text/javascript">
+        function NewImage()
+        {  
+            document.getElementById("img1").src="Image/WhatsApp Image 2021-11-30 at 10.57.47 PM.jpeg";
+        }
+        function OldImage()
+        {
+            document.getElementById("img1").src="Image/WhatsApp Image 2021-11-30 at 10.57.47 PM (2).jpeg";
+        }
+        
+    </script>
+
+</head>
+<body>
+    <h1>Image Change using Javascript</h1>
+    <br><br>
+    Image Change using Javascript
+    <br><br>
+    <img id="img1" onmouseover="NewImage()" onmouseout="OldImage()" 
+    src="Image/WhatsApp Image 2021-11-30 at 10.57.47 PM (2).jpeg" height="400" width="300">
+
+</body>
+</html>
