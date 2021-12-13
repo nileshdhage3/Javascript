@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>DOM manipulations </title>
+        <body>
+        <h1>DOM manipulations using Radiobutton </h1><br><br>
+
+        <input type="radio" id="rb1" name="classChk" value="Data Science">Data Science</input>
+        <br>
+        <input type="radio" id="rb2" name="classChk" value="Chatbot">Chatbot</input>
+        <br><br>
+        <button id="=button1" name="Click Me" onclick=btnClick()>Click me</button>
+        <br><br>
+        <br>
+        </body>
+        
+        <script type="text/javascript">
+        function btnClick()
+        {
+            var rb1=document.getElementById("rb1");
+            var rb2=document.getElementById("rb2");
+            if(rb1.checked==true)
+            {
+                alert("The selected radio button value is "+rb1.value);
+            }
+            else if(rb2.checked==true)
+            {
+                alert("The selected radio button value is "+rb2.value);
+            }
+            else
+            {
+                alert("No options are selected");
+            }
+        }   
+    
+        </script>
+    </head>
+</html>

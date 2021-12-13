@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectbox / Drop down Tutorial using Javascript</title>
+
+    <script type="text/javascript">
+        function btnClick()
+        {
+            var select_value=document.getElementById("select1");
+            alert(select_value.options[select1.selectedIndex].value);
+        }
+        
+    </script>
+
+</head>
+<body>
+    <h1>Selectbox / Drop down Tutorial using Javascript</h1>
+    <br><br>
+    Select any one from the options
+    <select id="select1">
+        <option id="Python">Python</option>
+        <option id="Java">Java</option>
+        <option id="Dot Net">Dot Net</option>
+        <option id="VB">VB</option>
+    </select>
+    <br><br>
+    <button id="btn1" onclick=btnClick()>Click me</button>
+</body>
+</html>

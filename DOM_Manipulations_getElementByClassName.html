@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Element by Class name</title>
+
+    <script type="text/javascript">
+        function StyleChange()
+        {  
+            var elem=document.getElementsByClassName("par1");
+            for(x=0;x<elem.length;x++)
+            {
+                elem[x].style.color="red";
+            }  
+        }
+        
+    </script>
+
+</head>
+<body>
+    <h1>Get Element by Class name in Javascript</h1>
+    <br><br>
+    Get Element by Class name
+    <br><br>
+    <p class="par1">This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p class="par1">This is paragraph 3</p>
+    <p class="par1">This is paragraph 4</p>
+
+    <br>
+    <button id="btn1" onclick=StyleChange()>Click me</button>
+</body>
+</html>
